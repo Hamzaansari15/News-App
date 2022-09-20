@@ -19,7 +19,8 @@ nav{
   justify-content: space-around;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
-  position: sticky!important;  
+  position: sticky!important;
+  top: 2px;  
 }
 
 nav .logo{
@@ -147,24 +148,27 @@ input[type="checkbox"]{
   margin-top: 3em;
   margin-bottom: 2em;
 }
-#image {
+#main_image {
+  background-image: url(dashboard/banner.jpg); 
   width: 60%; 
-  
+  border-radius: 10px;
+ 
 }
 @media only screen and (max-width: 1200px) {
-  #image {
+  #main_image {
     width: 70%;
-  }
+}
 }
 @media only screen and (max-width: 900px) {
-  #image {
+  #main_image {
     width: 85%;
-  }
+}
 }
 @media only screen and (max-width: 600px) {
-  #image {
-    width: 100%;
-  }
+  #main_image {
+    width: 99%;
+    margin-top: -1em;
+}
 }
 #body_section{
   display: flex;
