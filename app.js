@@ -4,10 +4,9 @@
 //     return response.json();
 // }).then((data) => {
 //     console.log(data);
-//     let firstLine = document.getElementById("first_line");
-//     let name = data["description"];
-//     firstLine.innerHTML = name
-
+//     for(let i = 0; i < data.articles.length; i++){
+//        console.log(data.articles[i]);  
+//     }
 // })
 // }
 // getData()
