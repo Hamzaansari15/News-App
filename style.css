@@ -656,3 +656,102 @@ img{
 }
 #article_card_des,#article_card_publish{
   font-weight: article}
+     
+
+
+  /* Business */
+
+  #main_business_body{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+   /* background-color: white;
+    width: 80%; */
+  }
+  #business_body{
+    padding: 1em;
+    top: 4em;
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    
+  }
+  @media only screen and (max-width:600px) {
+    #business_body{
+  
+      width: 100%;
+      /* height: 200px; */
+    }
+    }
+  
+  #business_card1{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  #business_card1 >img{
+    width: 250px;
+    border-radius: 10px;
+    height: 200px;
+  }
+  @media only screen and (max-width:1400px) {
+    #business_card1 >img{
+      width: 600px;
+      height: 300px;
+    }
+    }
+    @media only screen and (max-width:900px) {
+      #business_card1 >img{
+        width: 400px;
+        height: 200px;
+      }
+      }
+    @media only screen and (max-width:600px) {
+        #business_card1 >img{
+          width: 300px;
+          height: 150px;
+      }
+      }
+  #business_card1_text {
+    margin: 5px;
+    padding: 10px;
+    width: 800px;
+  }
+  @media only screen and (max-width:1660px) {
+  #business_card1_text {
+    width: 600px;
+  }
+  }
+  @media only screen and (max-width:1400px) {
+    #business_card1_text {
+      width: 600px;
+    }
+    }
+    @media only screen and (max-width:900px) {
+      #business_card1_text{
+        width: 400px;
+        }
+      }
+  #business_card1_text > a > button{
+    width: 7em;
+    margin: 10px;
+    padding: 5px;
+    height: 3em;
+    background-color: #032a63;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+  }
+  #business_card_title{
+    /* margin: 6px;
+    padding: 4px; */
+    font-size: 25;
+    font-weight: 900;
+    color: #032a63;
+  }
+  #business_card_des,#business_card_publish{
+    font-weight: article}
